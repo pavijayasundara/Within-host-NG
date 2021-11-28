@@ -1,0 +1,1 @@
+since, when p and eta are both fixed, the model does not result in good fits, we decided to try only eta being fixed.'

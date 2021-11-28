@@ -1,0 +1,1 @@
+plotting fig.4 the total NG lad by getting 95% range of the total NG load

@@ -1,0 +1,1 @@
+here p and eta are held fixed at the median levels found by fitting to the 7 parameters. The other 5 parameters d,c,mu,r1,r3 are estimated by  fitting to the full human model.

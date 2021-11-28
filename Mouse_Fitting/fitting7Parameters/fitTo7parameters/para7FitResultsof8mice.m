@@ -1,0 +1,87 @@
+%best fit estimates of the 7 parameters d,c,mu,p,q,r3,r1.
+%then the median of p and q is calculated to keep them constant across mice
+
+closedSquare=[   0.000837354076860
+   0.001106310841848
+   0.000000008177074
+   0.000346089294646
+   0.000224421146000
+   0.120309085128072
+   0.528067531657758
+];
+Plus=[   0.000010482823990
+   0.000027899927036
+   0.000000115163514
+   0.000051319721006
+   0.000005225426946
+   0.109601660260155
+   0.196163153971005
+];
+openCircles=[0.000020714163488
+   0.000023390900799
+   0.000000999597309
+   0.000000011170354
+   0.000004871508297
+   0.086432589082197
+   0.797578758736272];
+openTriangles=[   0.000133111660000
+   0.000283052201106
+   0.000000024628981
+   0.000055707782420
+   0.000005685812129
+   0.085219127319860
+   0.354206281873150
+];
+
+closedcircles=[   0.046666179853581
+   0.043111045471919
+   0.000000000158530
+   0.000000006803690
+   0.000009999982677
+   0.128523774865445
+   0.800937804190396
+];
+mouseX=[   0.000960509605516
+   0.001286127181429
+   0.000000000141988
+   0.000091310294582
+   0.000000011856891
+   0.049863079278676
+   0.009999905937929
+];
+closedTriangles=[1.005427580387888
+   0.955514895775686
+   0.000000000048671
+   0.000000010001782
+   0.000001012946600
+   0.089867152149296
+   0.982116215532655];
+openSquare=[0.004227494854058
+   0.007044969701125
+   0.000000000031187
+   0.000211127472063
+   0.000001003320103
+   0.042372600705623
+   0.000999997743138
+];
+pVals=[closedSquare(4),Plus(4),openCircles(4),openTriangles(4),...
+    closedcircles(4),mouseX(4),closedTriangles(4),openSquare(4)];
+
+qVals=[closedSquare(5),Plus(5),openCircles(5),openTriangles(5),...
+    closedcircles(5),mouseX(5),closedTriangles(5),openSquare(5)];
+
+r3Vals=[closedSquare(6),Plus(6),openCircles(6),openTriangles(6),...
+    closedcircles(6),mouseX(6),closedTriangles(6),openSquare(6)];
+
+median_p=median(pVals);
+median_q=median(qVals);
+
+mean_p=mean(pVals);
+geo_mean_p=10.^mean(log10(pVals));
+
+geo_mean_q=10.^mean(log10(qVals));
+figure
+close all
+boxplot(qVals)
+
+
