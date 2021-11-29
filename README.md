@@ -16,3 +16,4 @@ This repository includes the reproducible source code for the article Jayasundar
 |-Total_NG_Time_Course - Time course of total NG load
 ```
 ## Execution instructions
+The natual infection model using point estimates as parameter values can be executed by running the script ```point_estimate_model.m```. To capture uncertainty around model outcomes and to refine plausible ranges for model parameters a multivariate sensitivity analysis was conducted. The software package SaSAT was used to generate the Latin Hypercube Sampling (LHS) samples and carry out the multivariate sensitivity analysis (Hoare, et al. 2008). From these LHS samples retaining only the parameter values that meet the qualitative features of the time course of infection is carried out by running the script ```sensitivity_full_model.m```
