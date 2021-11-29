@@ -4,7 +4,7 @@
 This repository includes the reproducible source code for the article Jayasundara, et al. (2019) titled Modelling the in-host dynamics of Neisseria gonorrhoeae infection
 ## Directory Structure
 ```
-|-Comparison_Craig_Model - Comparison of the model NG load with the study by Craig, et al. (2015)
+|-Comparison_Craig_Model - Comparison of the simulated NG load with the study by Craig, et al. (2015)
 |-LHS_intracellular_percentage - Percentage of extra and intracellular NG load simulated using LHS samples as parameter values
 |-Mouse_Fitting - Fitting to mouse model data for validating model structure
 |-Parameter_Estimation_In_Vitro - Parameter estimation by fitting sub-models to in vitro data
