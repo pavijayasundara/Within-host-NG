@@ -22,4 +22,4 @@ The natual infection model using point estimates as parameter values can be exec
 Below are the generated time course of infection results using the point estimates as parameter values. 
 
 ![cell_percentage](images/Figure3.jpg)
-![time_course](images/Figure4.jpg)
+![time_course](images/Figure_4.jpg)
