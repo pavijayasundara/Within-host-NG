@@ -20,6 +20,8 @@ This repository includes the reproducible source code for the article Jayasundar
 
 This is a compartmental mathematical model with five compartments. Four of the compartments describe interactions between NG and the host: NG unattached (B) or attached (B_a) to epithelial cells, NG internalized within epithelial cells (B_i) and NG surviving within PMN (B_s). The fifth compartment represents the activated PMN cells (N). 
 Transitions between the five compartments are illustrated schematically in the below figure.
+
+
 ![model_structure](images/Figure1.jpg)
 
 ## Execution instructions
